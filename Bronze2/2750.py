@@ -14,8 +14,8 @@ for i in range(n):
 #                 x[j], x[j+1] = x[j+1], x[j]
 #     return x
 
-def quickSort(x):
+# def quickSort(x):
     # 머리아파서 나중에
 
-print(mySort(data))
+# print(mySort(data))
 
