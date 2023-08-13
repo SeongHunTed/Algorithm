@@ -2,9 +2,7 @@
 //  main.swift
 //  Algorithm
 //
-//  Created by Hoon on 2023/08/13.
+//  Created by Hoon on 2023/08/14.
 //
 
 import Foundation
-
-print("hi")
