@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		787755FD2A89371D0089F692 /* 3273.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787755FC2A89371D0089F692 /* 3273.swift */; };
-		787756012A8943410089F692 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787756002A8943410089F692 /* main.swift */; };
+		787756032A89C8810089F692 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787756022A89C8810089F692 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +29,8 @@
 		787755F82A89206F0089F692 /* 2577.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2577.swift; sourceTree = "<group>"; };
 		787755FA2A8926500089F692 /* 1475.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1475.swift; sourceTree = "<group>"; };
 		787755FC2A89371D0089F692 /* 3273.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3273.swift; sourceTree = "<group>"; };
-		787756002A8943410089F692 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		787756002A8943410089F692 /* 10807.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10807.swift; sourceTree = "<group>"; };
+		787756022A89C8810089F692 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +67,8 @@
 				787755F82A89206F0089F692 /* 2577.swift */,
 				787755FA2A8926500089F692 /* 1475.swift */,
 				787755FC2A89371D0089F692 /* 3273.swift */,
-				787756002A8943410089F692 /* main.swift */,
+				787756002A8943410089F692 /* 10807.swift */,
+				787756022A89C8810089F692 /* main.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -130,8 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787756012A8943410089F692 /* main.swift in Sources */,
 				787755FD2A89371D0089F692 /* 3273.swift in Sources */,
+				787756032A89C8810089F692 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
