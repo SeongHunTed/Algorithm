@@ -2,57 +2,52 @@
 //  main.swift
 //  Algorithm
 //
-//  Created by Hoon on 2023/08/14.
+//  Created by Hoon on 2023/08/16.
 //
 
 import Foundation
 
-var str = readLine()!
-var rightSide = ""
-let M = Int(readLine()!)!
+let testcase = Int(readLine()!)!
+var str = ""
+var leftSpace = ""
+var rightSpace = ""
 
-for _ in 0..<M {
-    let command = readLine()!
+for _ in 0..<testcase {
+    str = readLine()!
+    leftSpace = ""
+    rightSpace = ""
     
-    switch command {
-    case "L":
-        moveLeft()
-    case "D":
-        moveRight()
-    case "B":
-        delete()
-    default:
-        let argv = command.last!
-        add(argv)
+    for char in str {
+        switch char {
+        case "<":
+            swiftLeft()
+        case ">":
+            swiftRight()
+        case "-":
+            backSpace()
+        default:
+            leftSpace.append(char)
+        }
+    }
+    print(leftSpace + rightSpace.reversed())
+}
+
+
+
+func swiftLeft() {
+    if !leftSpace.isEmpty {
+        rightSpace.append(leftSpace.removeLast())
     }
 }
 
-let result: String = {
-    let first = str
-    let second = rightSide.reversed()
-    return first + second
-}()
-
-print(result)
-
-func moveLeft() {
-    if !str.isEmpty {
-        rightSide.append(str.removeLast())
+func swiftRight() {
+    if !rightSpace.isEmpty {
+        leftSpace.append(rightSpace.removeLast())
     }
 }
 
-func moveRight() {
-    if !rightSide.isEmpty {
-        str.append(rightSide.removeLast())
+func backSpace() {
+    if !leftSpace.isEmpty {
+        leftSpace.removeLast()
     }
-}
-
-func delete() {
-    if !str.isEmpty {
-        str.removeLast()
-    }
-}
-
-func add(_ argv: Character) {
-    str.append(argv)
 }
