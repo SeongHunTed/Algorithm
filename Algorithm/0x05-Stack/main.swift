@@ -7,22 +7,21 @@
 
 import Foundation
 
-let buildingCount = Int(readLine()!)!
-var buildings: [Int] = []
+let N = Int(readLine()!)!
+var arr = readLine()!
+    .components(separatedBy: " ")
+    .map { Int($0)! }
 var stack: [Int] = []
-var results = 0
-var counter = 0
 
-for _ in 0..<buildingCount {
-    buildings.append(Int(readLine()!)!)
-}
+var results = Array(repeating: -1, count: N)
 
-for building in buildings {
-    while !stack.isEmpty && stack.last! <= building {
-        stack.removeLast()
+for (index, item) in arr.enumerated() {
+    
+    while !stack.isEmpty && arr[stack.last!] < item {
+        results[stack.removeLast()] = item
     }
-    results += stack.count
-    stack.append(building)
+    
+    stack.append(index)
 }
 
 print(results)
