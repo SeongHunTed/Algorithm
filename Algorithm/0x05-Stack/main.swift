@@ -7,17 +7,23 @@
 
 import Foundation
 
-let testcase = Int(readLine()!)!
-var stack: [Int] = []
+let towerCount = Int(readLine()!)!
+var towers = readLine()!.components(separatedBy: " ").map { Int($0)!}
+var results = Array(repeating: 0, count: towerCount)
+var stack: [(index: Int, height: Int)] = []
 
-for _ in 0..<testcase {
-    let input = Int(readLine()!)!
+for (index, tower) in towers.enumerated() {
     
-    if input != 0 {
-        stack.append(input)
-    } else {
+    while !stack.isEmpty && stack.last!.height < tower {
         stack.removeLast()
     }
+    
+    if let top = stack.last {
+        results[index] = top.index + 1
+    }
+    
+    stack.append((index, tower))
 }
 
-print(stack.reduce(0, +))
+print(results.map { String($0) }.joined(separator: " "))
+
