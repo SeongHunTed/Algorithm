@@ -7,42 +7,27 @@
 
 import Foundation
 
-let testcase = Int(readLine()!)!
-var queue: [Int] = []
+let N = Int(readLine()!)!
 
-for _ in 0..<testcase {
-    let input = readLine()!.components(separatedBy: " ")
-    
-    switch input[0] {
-    case "push":
-        let argv = Int(input[1])!
-        queue.append(argv)
-    case "pop":
-        if !queue.isEmpty {
-            print(queue.removeFirst())
-        } else {
-            print("-1")
-        }
-    case "size":
-        print(queue.count)
-    case "empty":
-        if queue.isEmpty {
-            print("1")
-        } else {
-            print("0")
-        }
-    case "front":
-        if let item = queue.first {
-            print(item)
-        } else {
-            print("-1")
-        }
-    default:
-        if let item = queue.last {
-            print(item)
-        } else {
-            print("-1")
-        }
-    }
-    
+var queue: [Int] = []
+var front = 0
+
+for i in 1...N {
+    queue.append(i)
 }
+
+while queue[front] != 0 {
+
+    let item = queue[front]
+    queue[front] = 0
+    front += 1
+    if queue.count == front {
+        print(item)
+        break
+    }
+    queue.append(queue[front])
+    queue[front] = 0
+    front += 1
+}
+
+
