@@ -2,50 +2,60 @@
 //  main.swift
 //  Algorithm
 //
-//  Created by Hoon on 12/29/23.
+//  Created by Hoon on 1/3/24.
 //
 
 import Foundation
 
-extension Deque {
-	mutating func moveLeft() {
-		pushRight(popLeft())
-	}
+var result = ""
+
+var testCase = Int(readLine()!)!
+
+while testCase > 0 {
+	let function = readLine()!
+	let n = Int(readLine()!)!
+	let array = readLine()!
+		.replacingOccurrences(of: "[\\[\\]]", with: "", options: .regularExpression)
+		.split(separator: ",")
+		.map { Int(String($0)) }
 	
-	mutating func moveRight() {
-		pushLeft(popRight())
-	}
-}
-
-let input = readLine()!.split(separator: " ").map { Int($0)! }
-let n = input[0]
-let m = input[1]
-
-let position = readLine()!.split(separator: " ").map { Int($0)! }
-var counter = 0
-
-var deque = Deque()
-for i in 1...n {
-	deque.pushRight(i)
-}
-
-position.forEach { item in
-	let moveLeftCounter = deque.index(of: item)
-	let moveRightCounter = deque.count - moveLeftCounter
+	var front = 0
+	var end = n - 1
+	var reverse = false
+	var error = false
 	
-	if moveLeftCounter < moveRightCounter {
-		for _ in 0..<moveLeftCounter {
-			deque.moveLeft()
+	for query in function {
+		switch String(query) {
+			case "R":
+				swap(&front, &end)
+				reverse.toggle()
+			case "D":
+				if !reverse && front <= end {
+					front += 1
+				} else if reverse && front >= end {
+					front -= 1
+				} else {
+					error = true
+					break
+				}
+			default:
+				break
 		}
-		_ = deque.popLeft()
-		counter += moveLeftCounter
+	}
+	
+	if error {
+		result.write("error\n")
 	} else {
-		for _ in 0..<moveRightCounter {
-			deque.moveRight()
+		result.write("[")
+		while (!reverse && front <= end) || (reverse && front >= end) {
+			let word = array[front]!
+			result.write("\(word)")
+			if front != end { result.write(",") }
+			front += reverse ? -1 : 1
 		}
-		_ = deque.popLeft()
-		counter += moveRightCounter
+		result.write("]\n")
 	}
+	testCase -= 1
 }
 
-print(counter)
+print(result)
