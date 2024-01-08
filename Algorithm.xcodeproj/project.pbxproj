@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78C509892B48324B00BC4F37 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C509882B48324B00BC4F37 /* main.swift */; };
+		78673D2A2B4C549E002192A5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78673D292B4C549E002192A5 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		78673D292B4C549E002192A5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		787755EE2A890C910089F692 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		787755F12A890C910089F692 /* 10808.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10808.swift; sourceTree = "<group>"; };
 		787755F82A89206F0089F692 /* 2577.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2577.swift; sourceTree = "<group>"; };
@@ -54,7 +55,7 @@
 		78C509812B4696B000BC4F37 /* 4949.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4949.swift; sourceTree = "<group>"; };
 		78C509832B4820C800BC4F37 /* 3986.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3986.swift; sourceTree = "<group>"; };
 		78C509852B4829BE00BC4F37 /* 9012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9012.swift; sourceTree = "<group>"; };
-		78C509882B48324B00BC4F37 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		78C509882B48324B00BC4F37 /* 10799.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10799.swift; sourceTree = "<group>"; };
 		78F5094F2B3D6DCA00FF6911 /* 10809.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10809.swift; sourceTree = "<group>"; };
 		78F509552B3EC63F00FF6911 /* 10890.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10890.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,7 +178,8 @@
 			children = (
 				78C509832B4820C800BC4F37 /* 3986.swift */,
 				78C509852B4829BE00BC4F37 /* 9012.swift */,
-				78C509882B48324B00BC4F37 /* main.swift */,
+				78C509882B48324B00BC4F37 /* 10799.swift */,
+				78673D292B4C549E002192A5 /* main.swift */,
 			);
 			name = "0x08-Stack활용";
 			path = "0x08-Stack활용";
@@ -250,7 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C509892B48324B00BC4F37 /* main.swift in Sources */,
+				78673D2A2B4C549E002192A5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
