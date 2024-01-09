@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78673D2A2B4C549E002192A5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78673D292B4C549E002192A5 /* main.swift */; };
+		78673D3A2B4D49D3002192A5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78673D392B4D49D3002192A5 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		78673D292B4C549E002192A5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		78673D362B4D3360002192A5 /* Algorithm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Algorithm-Bridging-Header.h"; sourceTree = "<group>"; };
+		78673D372B4D3360002192A5 /* 1926.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1926.swift; sourceTree = "<group>"; };
+		78673D392B4D49D3002192A5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		787755EE2A890C910089F692 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		787755F12A890C910089F692 /* 10808.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10808.swift; sourceTree = "<group>"; };
 		787755F82A89206F0089F692 /* 2577.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2577.swift; sourceTree = "<group>"; };
@@ -71,6 +73,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78673D352B4D3354002192A5 /* 0x09-BFS */ = {
+			isa = PBXGroup;
+			children = (
+				78673D372B4D3360002192A5 /* 1926.swift */,
+				78673D392B4D49D3002192A5 /* main.swift */,
+				78673D362B4D3360002192A5 /* Algorithm-Bridging-Header.h */,
+			);
+			path = "0x09-BFS";
+			sourceTree = "<group>";
+		};
 		787755E52A890C910089F692 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +102,7 @@
 		787755F02A890C910089F692 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				78673D352B4D3354002192A5 /* 0x09-BFS */,
 				78C509872B4829DA00BC4F37 /* 0x08-Stack활용 */,
 				78F5094E2B3D6DB900FF6911 /* String */,
 				78A6811D2ACB165000EF58F5 /* 0x08-Stack2 */,
@@ -179,7 +192,6 @@
 				78C509832B4820C800BC4F37 /* 3986.swift */,
 				78C509852B4829BE00BC4F37 /* 9012.swift */,
 				78C509882B48324B00BC4F37 /* 10799.swift */,
-				78673D292B4C549E002192A5 /* main.swift */,
 			);
 			name = "0x08-Stack활용";
 			path = "0x08-Stack활용";
@@ -252,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78673D2A2B4C549E002192A5 /* main.swift in Sources */,
+				78673D3A2B4D49D3002192A5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +392,7 @@
 				DEVELOPMENT_TEAM = 3ZYNC2J93W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Algorithm/0x09-BFS/Algorithm-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -393,6 +406,7 @@
 				DEVELOPMENT_TEAM = 3ZYNC2J93W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Algorithm/0x09-BFS/Algorithm-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
