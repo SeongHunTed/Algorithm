@@ -21,15 +21,108 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F3304217-9B95-43C4-9120-B3DA69A9FBB0"
+            uuid = "8298C2EC-6AE9-49D1-825D-659852CB3AF0"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Algorithm/0x09-BFS/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22">
+            startingLineNumber = "81"
+            endingLineNumber = "81">
+            <Locations>
+               <Location
+                  uuid = "8298C2EC-6AE9-49D1-825D-659852CB3AF0 - 10011a56c84f3708"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Algorithm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hoon/Desktop/Algo/Algorithm/Algorithm/0x09-BFS/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "1364">
+               </Location>
+               <Location
+                  uuid = "8298C2EC-6AE9-49D1-825D-659852CB3AF0 - 10011a56c84f3708"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Algorithm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hoon/Desktop/Algo/Algorithm/Algorithm/0x09-BFS/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "1380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9617597-78E1-43A1-918A-7633B02CC77B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm/0x09-BFS/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82">
+            <Locations>
+               <Location
+                  uuid = "F9617597-78E1-43A1-918A-7633B02CC77B - 10011a56c84f3674"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Algorithm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hoon/Desktop/Algo/Algorithm/Algorithm/0x09-BFS/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "3572">
+               </Location>
+               <Location
+                  uuid = "F9617597-78E1-43A1-918A-7633B02CC77B - 10011a56c84f3655"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Algorithm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hoon/Desktop/Algo/Algorithm/Algorithm/0x09-BFS/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "3572">
+               </Location>
+               <Location
+                  uuid = "F9617597-78E1-43A1-918A-7633B02CC77B - 10011a56c84f3674"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Algorithm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hoon/Desktop/Algo/Algorithm/Algorithm/0x09-BFS/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "3560">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
