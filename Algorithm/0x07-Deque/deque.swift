@@ -7,28 +7,27 @@
 
 import Foundation
 
-struct Deque {
-	var input = [Int]()
-	var output = [Int]()
+struct Deque<T> {
+	var input = [T]()
+	var output = [T]()
 	
 	var count: Int {
 		return input.count + output.count
 	}
 	
-	func index(of item: Int) -> Int {
-		let queue = output.reversed() + input
-		return queue.firstIndex(of: item)!
+	var isEmpty: Bool {
+		return input.isEmpty && output.isEmpty
 	}
 	
-	mutating func pushRight(_ item: Int) {
+	mutating func pushRight(_ item: T) {
 		input.append(item)
 	}
 	
-	mutating func pushLeft(_ item: Int) {
+	mutating func pushLeft(_ item: T) {
 		output.append(item)
 	}
 	
-	mutating func popLeft() -> Int {
+	mutating func popLeft() -> T {
 		if output.isEmpty {
 			output = input.reversed()
 			input.removeAll()
@@ -36,7 +35,7 @@ struct Deque {
 		return output.popLast()!
 	}
 	
-	mutating func popRight() -> Int {
+	mutating func popRight() -> T {
 		if input.isEmpty {
 			input = output.reversed()
 			output.removeAll()
