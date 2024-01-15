@@ -68,16 +68,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "DB54ADD9-A25D-46A5-AA47-DF9E3E1C3B8E"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Algorithm/0x09-BFS/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "29"
+            endingLineNumber = "29">
             <Locations>
                <Location
                   uuid = "DB54ADD9-A25D-46A5-AA47-DF9E3E1C3B8E - 10011a56c84f2e76"
