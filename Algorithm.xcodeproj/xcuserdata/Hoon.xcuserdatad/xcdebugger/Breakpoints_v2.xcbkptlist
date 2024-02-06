@@ -29,7 +29,9 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "90"
-            endingLineNumber = "90">
+            endingLineNumber = "90"
+            landmarkName = "checkIceMountain()"
+            landmarkType = "9">
             <Locations>
                <Location
                   uuid = "8298C2EC-6AE9-49D1-825D-659852CB3AF0 - 10011a56c84f3708"
@@ -75,7 +77,9 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
-            endingLineNumber = "29">
+            endingLineNumber = "29"
+            landmarkName = "unknown"
+            landmarkType = "0">
             <Locations>
                <Location
                   uuid = "DB54ADD9-A25D-46A5-AA47-DF9E3E1C3B8E - 10011a56c84f2e76"
@@ -108,6 +112,102 @@
                   offsetFromSymbolStart = "1760">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D04D31DC-97F7-4959-B105-A5C93ACBFD73"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm/0x09-BFS/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "checkIceMountain()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "D04D31DC-97F7-4959-B105-A5C93ACBFD73 - 3cd57cab19dc7c9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Algorithm.checkIceMountain() -&gt; Swift.Bool"
+                  moduleName = "Algorithm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hoon/Desktop/Algo/Algorithm/Algorithm/0x09-BFS/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "1272">
+               </Location>
+               <Location
+                  uuid = "D04D31DC-97F7-4959-B105-A5C93ACBFD73 - 3cd57cab19dc7c9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Algorithm.checkIceMountain() -&gt; Swift.Bool"
+                  moduleName = "Algorithm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hoon/Desktop/Algo/Algorithm/Algorithm/0x09-BFS/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "1224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46071F41-966A-4260-86CA-0357B4328F24"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm/0x09-BFS/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F9487E5-7569-4F94-80BE-BDD60FF9E090"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm/0x09-BFS/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "checkIceMountain()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69E941F1-40DC-4CE3-872A-C05B7F1E8DBA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm/0x09-BFS/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "checkIceMountain()"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
