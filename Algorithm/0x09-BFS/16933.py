@@ -35,13 +35,12 @@ def crashAndFindMyWay():
                     q.append((nx, ny, k, not day, count +1))
                 # 부술 수 있고 낮
                 elif k > 0 and day and miro[nx][ny] == 1 and visited[nx][ny][k-1] == 0:
-                    # print("case1", nx, ny, k, visited[x][y][k] + 1)
                     visited[nx][ny][k-1] = count + 1
                     q.append((nx, ny, k-1, False, count + 1))
                 # 부숴야 되는데 밤
                 elif k > 0 and not day and miro[nx][ny] == 1 and visited[nx][ny][k-1] == 0:
-                    visited[nx][ny][k-1] = count + 2
-                    q.append((nx, ny, k-1, False, count + 2))
+                    visited[x][y][k] = count + 1
+                    q.append((x, y, k, True, count + 1))
 
     return -1
 
