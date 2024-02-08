@@ -30,4 +30,5 @@ def findMySister(mover, target):
                 visit[nextPosition] = visit[position] + 1
                 root[nextPosition] = position
 
+
 findMySister(subin, sis)
