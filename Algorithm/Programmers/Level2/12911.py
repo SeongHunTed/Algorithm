@@ -8,4 +8,3 @@ def solution(n):
         
         if countOne == bin(nextNumber)[2:].count('1'):
             return nextNumber
-        
