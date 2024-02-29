@@ -17,3 +17,5 @@ def fibonacci(n):
 def solution(n):
     answer = fibonacci(n)
     return answer
+
+fibonacci(10)
