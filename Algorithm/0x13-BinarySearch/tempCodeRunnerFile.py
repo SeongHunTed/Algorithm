@@ -1,2 +1,2 @@
 
-    print(binarySearch(num))
+        en -= 1
