@@ -16,5 +16,6 @@ def process(t):
     if t[0] == 'B':
         process(t[1:][::-1])
     
+    
 process(t)
 print(0)
